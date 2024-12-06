@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+
+<title>F1 STORE</title>
+<style>
+h1 {
+color: #EF0000;
+font-family: Freshman;
+font-size: 130px;
+text-align: center;
+}
+h3 {
+color: #000000;
+font-family: Freshman;
+font-size: 100px;
+text-align: center;
+}
+
+body {
+font-family: Freshman;
+margin: 0;
+padding: 0;
+background-size: fill;
+background-position: center;
+background-image:url('F1Fondo.png');
+text-align: center;
+}
+
+img{
+width:350px;
+height: auto;
+display: flex;
+margin: 0 auto;
+border: 0px solid #ffffff;
+align: left;
+}
+
+.container {
+float: center;
+max-width: 800px;
+margin: 3px auto;
+padding: 0 500px;
+color: #000000;
+}
+
+.product {
+border: 1px solid #000;
+background-color: #EDEDED;
+margin-bottom: 20px;
+padding: 2px;
+}
+
+.product2 {
+border: 1px solid #000;
+background-color: #ffffff;
+margin-bottom: 10px;
+padding: 2px;
+}
+
+</style>
+     </head>
+        <body>
+
+<h1>F1 STORE</h1>
+
+<div class="product">
+<img src="RedBull.PNG">
+</div>
+<br>
+<br>
+
+<h2>Gorra Sergio Perez 2024</h2>
+<img src="ChecoCap2024.PNG">
+<p>Oracle Red Bull Racing</p>
+<p>Precio: $1500.00</p>
+<br>
+<br>
+
+<h2>Gorra Max Verstappen 2024</h2>
+<img src="MaxCap2024.PNG">
+<p>Oracle Red Bull Racing</p>
+<p>Precio: $1500.00</p>
+<br>
+<br>
+
+<h2>Playera Tipo Polo 2024</h2>
+<img src="ORBR.PNG">
+<p>Oracle Red Bull Racing</p>
+<p>Precio: $1800.00</p>
+<br>
+<br>
+
+<div class="product">
+<img src="Ferrari.PNG">
+</div>
+<br>
+<br>
+
+<h2>Ferrari 2023</h2>
+<img src="Ferrari2023.PNG">
+<p>Scuderia Ferrari</p>
+<p>Precio: $1150.00</p>
+<br>
+<br>
+
+<h2>Ferrari Monza 2023</h2>
+<img src="FerrariMonza.PNG">
+<p>Scuderia Ferari</p>
+<p>Precio: $1650.00</p>
+<br>
+<br>
+
+<h2>Playera Tipo Polo 2024</h2>
+<img src="F.PNG">
+<p>Scuderia Ferari</p>
+<p>Precio: $1850.00</p>
+<br>
+<br>
+
+<div class="product">
+<img src="AstonMartinf1.PNG">
+</div>
+<br>
+<br>
+
+<h2>Gorra Fernando Alonso 2024</h2>
+<img src="AlonsoCap2024.PNG">
+<p>Aston Martin Aramco</p>
+<p>Precio: $1400.00</p>
+<br>
+<br>
+
+<h2>Aston Martin Aramco Negra 2024</h2>
+<img src="AstonMartinBlack.PNG">
+<p>Aston Martin Aramco</p>
+<p>Precio: $980.00</p>
+<br>
+<br>
+
+<h2>Camiseta 2024</h2>
+<img src="AM.PNG">
+<p>Aston Martin Aramco</p>
+<p>Precio: $2100.00</p>
+<br>
+<br>
+
+<div class="product">
+<img src="Mercedes.PNG">
+</div>
+<br>
+<br>
+
+<h2>Gorra Lewis Hamilton 2024</h2>
+<img src="Ham.PNG">
+<p>Mercedes AMG Petronas</p>
+<p>Precio: $1360.00</p>
+<br>
+<br>
+
+<h2>Gorra George Russell 2024</h2>
+<img src="Rus.PNG">
+<p>Mercedes AMG Petrona</p>
+<p>Precio: $1250.00</p>
+<br>
+<br>
+
+<h2>Camiseta 2024</h2>
+<img src="MAP.PNG">
+<p>Mercedes AMG Petrona</p>
+<p>Precio: $1600.00</p>
+<br>
+<br>
+
+<div class="product">
+<img src="Mclaren.PNG">
+</div>
+<br>
+<br>
+
+<h2>Gorra Lando Norris 2024</h2>
+<img src="Norris.PNG">
+<p>Mclaren</p>
+<p>Precio: $1400.00</p>
+<br>
+<br>
+
+<h2>Mclaren Negra 2023</h2>
+<img src="MCB.PNG">
+<p>Mclaren</p>
+<p>Precio: $980.00</p>
+<br>
+<br>
+
+<h2>Playera Tipo Polo 2024</h2>
+<img src="M.PNG">
+<p>Mclaren</p>
+<p>Precio: $2100.00</p>
+<br>
+<br>
+
+<div class="product">
+<img src="VisaRacingBulls.PNG">
+</div>
+<br>
+<br>
+
+<h2>AlphaTauri 2023</h2>
+<img src="GorraAlpha.PNG">
+<p>Scuderia AlphaTauri</p>
+<p>Precio: $1230.00</p>
+<br>
+<br>
+
+<h2>Gorra Yuki Tsunoda 2023</h2>
+<img src="Yuki.PNG">
+<p>Scuderia AlphaTauri</p>
+<p>Precio: $700.00</p>
+<br>
+<br>
+
+<h2>Chaqueta Deportiva 2023</h2>
+<img src="VCARB.PNG">
+<p>Scuderia AlphaTauri</p>
+<p>Precio: $1800.00</p>
+<br>
+<br>
+
+
+<h3>Proximamente mas proudctos!!</h3>
+
+   </div>
+  </body>
+</html>

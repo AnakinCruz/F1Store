@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+
+<title>Circuitos F1</title>
+
+<style>
+
+h1 {
+color: #ef0000;
+font-family: Freshman;
+font-size: 100px;
+}
+
+h2 {
+color: ##000000;
+font-family: Freshman;
+font-size: 50px;
+}
+
+h3 {
+color: #000000;
+font-family: Freshman;
+font-size: 45px;
+}
+
+p {
+color: #000000;
+font-family: Arial sans-serif;
+font-size: 25px;
+}
+
+body {
+font-family: Freshman;
+margin: 0;
+padding: 0;
+background-size: fill;
+background-position: center;
+background-image:url('F1Fondo.png');
+text-align: center;
+
+}
+img{
+width:400px;
+height: auto;
+display: block;
+margin: 0 auto;
+}
+
+.container {
+max-width: 800px;
+margin: 20px auto;
+padding: 0 20px;
+color: #000000;
+}
+.product {
+border: 1px solid #ccc;
+background-color: #ffffff;
+margin-bottom: 20px;
+padding: 10px;
+}
+
+.product2 {
+border: 1px solid #ccc;
+background-color: #EDEDED;
+margin-bottom: 20px;
+padding: 10px;
+}
+
+button {
+background: #ef0000;
+border-color: #000000;
+border-radius: 10px;
+color: #ffffff;
+font-size: 16px;
+padding: 12px;
+}
+
+button2 {
+background: #000000;
+border-color: #ffffff;
+border-radius: 30px;
+color: #ffffff;
+font-size: 30px;
+padding: 12px;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+<img src="F1LOGO2.PNG" style="float: left">
+<h1>STORE</h1>
+</div>
+
+<div class="product2">
+<h3 Id="contador">PRODUCTOS EN EL CARRITO</h3>
+</div>
+
+<button onclick="Aviso()">COMPRAR</button>
+<br>
+<br>
+<br>
+<br>
+
+<div class="product2">
+<img src="RedBull.PNG">
+</div>
+<br>
+<br>
+
+<div class="container">
+<h2>Playera Tipo Polo 2024</h2>
+<div class="product">
+<img src="ORBR.PNG" style="float: left">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>Oracle Red Bull Racing</p>
+<p>Precio: $1800.00</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<button Id="boton1">AGREGAR AL CARRITO</button>
+<br>
+<br>
+</div>
+
+<div class="container">
+<h2>Playera Tipo Polo 2023</h2>
+<div class="product">
+<img src="RedBull2023.png" style="float: right">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>Oracle Red Bull Racing</p>
+<p>Precio: $1400.00</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<button Id="boton2">AGREGAR AL CARRITO</button>
+<br>
+<br>
+</div>
+
+<div class="product2">
+<img src="Ferrari.PNG">
+</div>
+<br>
+<br>
+
+<div class="container">
+<h2>Playera Tipo Polo 2024</h2>
+<div class="product">
+<img src="F.PNG" style="float: left">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>Scuderia Ferari</p>
+<p>Precio: $1850.00</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<button Id="boton3">AGREGAR AL CARRITO</button>
+<br>
+<br>
+</div>
+
+<div class="container">
+<h2>Playera Tipo Polo 2023</h2>
+<div class="product">
+<img src="SFerrari2023.PNG" style="float: right">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>Scuderia Ferari</p>
+<p>Precio: $1350.00</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<button Id="boton4">AGREGAR AL CARRITO</button>
+<br>
+<br>
+</div>
+
+<div class="product2">
+<img src="AstonMartinf1.PNG">
+</div>
+<br>
+<br>
+
+<div class="container">
+<h2>Camiseta 2024</h2>
+<div class="product">
+<img src="AM.PNG" style="float: left">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>Aston Martin Aramco</p>
+<p>Precio: $2100.00</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<button Id="boton5">AGREGAR AL CARRITO</button>
+<br>
+<br>
+</div>
+
+<div class="container">
+<h2>Camiseta 2023</h2>
+<div class="product">
+<img src="Aston2023.PNG" style="float: right">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>Aston Martin Aramco</p>
+<p>Precio: $1700.00</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<button Id="boton6">AGREGAR AL CARRITO</button>
+<br>
+<br>
+</div>
+
+<div class="product2">
+<img src="Mercedes.PNG">
+</div>
+<br>
+<br>
+
+<div class="container">
+<h2>Camiseta 2024</h2>
+<div class="product">
+<img src="MAP.PNG" style="float: left">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>Mercedes AMG Petronas</p>
+<p>Precio: $1600.00</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<button Id="boton7">AGREGAR AL CARRITO</button>
+<br>
+<br>
+</div>
+
+<div class="container">
+<h2>Camiseta 2023</h2>
+<div class="product">
+<img src="Mercedes2023.PNG" style="float: right">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>Mercedes AMG Petronas</p>
+<p>Precio: $1100.00</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<br>
+<br>
+<br>
+<button Id="boton8">AGREGAR AL CARRITO</button>
+<br>
+<br>
+</div>
+
+<div class="product2">
+<img src="Mclaren.PNG">
+</div>
+<br>
+<br>
+
+<div class="container">
+<h2>Playera Tipo Polo 2024</h2>
+<div class="product">
+<img src="M.PNG" style="float: left">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>Mclaren</p>
+<p>Precio: $2100.00</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<button Id="boton9">AGREGAR AL CARRITO</button>
+<br>
+<br>
+</div>
+
+<div class="container">
+<h2>Playera Tipo Polo 2023</h2>
+<div class="product">
+<img src="Mclaren2023.PNG" style="float: right">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>Mclaren</p>
+<p>Precio: $1700.00</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<button Id="boton10">AGREGAR AL CARRITO</button>
+<br>
+<br>
+</div>
+
+<div class="product2">
+<img src="VisaRacingBulls.PNG">
+</div>
+<br>
+<br>
+
+<div class="container">
+<h2>Playera Tipo Polo 2023</h2>
+<div class="product">
+<img src="Alpha2023.PNG" style="float: left">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>Scuderia AlphaTauri</p>
+<p>Precio: $1800.00</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<button Id="boton11">AGREGAR AL CARRITO</button>
+<br>
+<br>
+</div>
+
+<div class="container">
+<h2>Playera Tipo Polo 2022</h2>
+<div class="product">
+<img src="Alpha2022.PNG" style="float: right">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p>Scuderia AlphaTauri</p>
+<p>Precio: $1300.00</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<br>
+<br>
+<br>
+<button Id="boton12">AGREGAR AL CARRITO</button>
+<br>
+<br>
+</div>
+
+<a href="CatalogoF1.HTML"><button2>VOLVER AL MENU PRINCIPAL</button2></a>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+   </div>
+
+<script>
+
+var boton1 = document.getElementById('boton1');
+var boton2 = document.getElementById('boton2');
+var boton3 = document.getElementById('boton3');
+var boton4 = document.getElementById('boton4');
+var boton5 = document.getElementById('boton5');
+var boton6 = document.getElementById('boton6');
+var boton7 = document.getElementById('boton7');
+var boton8 = document.getElementById('boton8');
+var boton9 = document.getElementById('boton9');
+var boton10 = document.getElementById('boton10');
+var boton11 = document.getElementById('boton11');
+var boton12 = document.getElementById('boton12');
+
+var contador = document.getElementById('contador');
+
+
+var clicks = 0;
+var total = 0;
+
+boton1.addEventListener('click', function() {
+clicks++;
+total += 1800;
+contador.textContent= clicks + "  PRODUCTOS EN EL CARRITO: $" + total;
+});
+
+boton2.addEventListener('click', function() {
+clicks++;
+total += 1400;
+contador.textContent= clicks + "  PRODUCTOS EN EL CARRITO: $" + total;
+});
+
+boton3.addEventListener('click', function() {
+clicks++;
+total += 1850;
+contador.textContent= clicks + "  PRODUCTOS EN EL CARRITO: $" + total;
+});
+
+boton4.addEventListener('click', function() {
+clicks++;
+total += 1350;
+contador.textContent= clicks + "  PRODUCTOS EN EL CARRITO: $" + total;
+});
+
+boton5.addEventListener('click', function() {
+clicks++;
+total += 2100;
+contador.textContent= clicks + "  PRODUCTOS EN EL CARRITO: $" + total;
+});
+
+boton6.addEventListener('click', function() {
+clicks++;
+total += 1700;
+contador.textContent= clicks + "  PRODUCTOS EN EL CARRITO: $" + total;
+});
+
+boton7.addEventListener('click', function() {
+clicks++;
+total += 1600;
+contador.textContent= clicks + "  PRODUCTOS EN EL CARRITO: $" + total;
+});
+
+boton8.addEventListener('click', function() {
+clicks++;
+total += 1100;
+contador.textContent= clicks + "  PRODUCTOS EN EL CARRITO: $" + total;
+});
+
+boton9.addEventListener('click', function() {
+clicks++;
+total += 2100;
+contador.textContent= clicks + "  PRODUCTOS EN EL CARRITO: $" + total;
+});
+
+boton10.addEventListener('click', function() {
+clicks++;
+total += 1700;
+contador.textContent= clicks + "  PRODUCTOS EN EL CARRITO: $" + total;
+});
+
+boton11.addEventListener('click', function() {
+clicks++;
+total += 1800;
+contador.textContent= clicks + "  PRODUCTOS EN EL CARRITO: $" + total;
+});
+
+boton12.addEventListener('click', function() {
+clicks++;
+total += 1300;
+contador.textContent= clicks + "  PRODUCTOS EN EL CARRITO: $" + total;
+});
+
+function Aviso(){
+alert("TU COMPRA SE COMPLETO CORRECTAMENTE");
+}
+
+</script>
+
+  </body>
+</html>
+
